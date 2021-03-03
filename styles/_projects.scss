@@ -1,0 +1,22 @@
+.projects {
+  width: 90%;
+  margin: 2rem auto;
+  min-height: 90vh;
+  @include flex(space-between, center, row);
+  text-align: center;
+  flex-wrap: wrap;
+  h2 {
+    margin: 5rem;
+  }
+  img {
+    width: 60rem;
+    height: 50rem;
+    box-shadow: 2px 2px 10px 5px #888888;
+    border-radius: 2rem;
+  }
+}
+
+.travelly,
+.elena {
+  flex: 1 1 40rem;
+}
